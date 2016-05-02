@@ -1,4 +1,5 @@
------Aplikace vizualizující otevřená data------
+*Aplikace vizualizující otevřená data*
+
 Tato aplikace je výsledkem jednoho z cílů bakalářské práce Podpora publikace otevřených dat v obcích.
 Cílem aplikace je vizualizovat vybrané záznamy datové sady, které byly v předchozí části otevřeny.
 
