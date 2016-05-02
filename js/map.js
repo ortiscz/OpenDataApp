@@ -162,18 +162,6 @@ var map = L.map('map', {zoomControl:false});
 	};
 	oddal.addTo(map);
 
-	/*var upozornit = L.control({position: 'bottomleft'});
-
-	upozornit.onAdd = function (map) {
-
-	    this._div = L.DomUtil.create('div', 'upozornit');
-	    this._div.innerHTML = 'Je mezi daty nesprávná, nebo zcela chybějící informace? Napište nám o ní!';
-	    //L.DomEvent.on(this._div, 'click', goHome);
-	    return this._div;
-
-	};
-	upozornit.addTo(map);*/
-
 
 
 
