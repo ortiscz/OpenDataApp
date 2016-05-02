@@ -1,0 +1,62 @@
+/* ZOBRAZENÍ Z 0 NA 1 */
+@keyframes zobrazeni{
+  to  {opacity: 1;}
+}
+
+h1{
+  animation: zobrazeni 2s forwards;
+  opacity: 0;
+}
+
+.menu{
+  animation: zobrazeni 1.5s ease-in-out 0.5s forwards;
+  opacity: 0;
+}
+  .menu ul li a:hover{
+    animation: prebarveni 1s forwards;
+    }
+  @keyframes prebarveni{
+    to  {color: dimgrey;}
+  }
+
+.content{
+  animation: zobrazeni 2s ease-in-out 1s forwards;
+  opacity: 0;
+}
+
+#blink {
+    animation: blink 0.75s ease-in-out 1s infinite;
+    font-size:0.8em;
+    opacity: 0;
+}
+
+/* BLIKÁNÍ PODTRŽÍTKA */
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    51% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#in:not(:hover){
+  animation: prebarveniZIn 0.75s forwards;
+}
+@keyframes prebarveniZIn{
+    from {background: #1B86BC; color: white;}
+    to  {background: white; color: black;}
+  }
+
+#in:hover{
+  animation: prebarveniIn 0.5s forwards;
+  text-decoration: none;
+}
+@keyframes prebarveniIn{
+    to  {background: #1B86BC; color: white;}
+  }
