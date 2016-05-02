@@ -1,0 +1,32 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Polygon",
+       "coordinates":  {“[ 14.3032699, 50.7889437 ], [ 14.3034513, 50.7888883 ], [ 14.3035235, 50.788984 ], [ 14.3034114, 50.7890176 ], [ 14.3033711, 50.7889636 ], [ 14.3033383, 50.7889734 ], [ 14.3033467, 50.7889847 ], [ 14.3033088, 50.788996 ], [ 14.3032699, 50.7889437 ]“}
+    },
+    "properties": {
+    "vlastnik_ic":261360,
+    "knihovna_id":1365,
+    "adresa_kod_adm":24562,
+    "adresa_kod_casti_obce":49522,
+    "adresa_nazev_casti_obce":"Huntířov",
+    "adresa_typ_so":"č.p.",
+    "adresa_cislo_domovni":126,
+    "adresa_patro":"1",
+    "adresa_mistnost":"knihovna",
+    "umisteni_system":4326,
+    "nazev":"Obecní knihovna Huntířov",
+    "sluzby":"počítač s přístupem na internet, prezenční výpůjčka",
+    "doba_vypujcky":30,
+    "kapacita":20,
+    "kontakt_telefon":412525008,
+    "kontakt_email":"huntirov@huntirov.cz",
+    "kontakt_idds":"zj8av6p",
+    "provozni_doba":"středa 13:00 až 17:00"
+    }
+  }
+]
+}
